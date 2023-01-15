@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* Add a background color */
+body {
+    background-color: #9b9a9a;
+  }
+  
+  /* Use different font sizes and styles for headings */
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+  }
+  
+  /* Use different font sizes and styles for text */
+  p {
+    font-size: 1em;
+    color: #555555;
+    line-height: 1.5em;
+  }
+  
+  /* Use different colors for links */
+  a {
+    color: #0000EE;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+  }
+  
+  /* Add spacing and padding */
+  .input-center {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Add hover effects */
+  .input-center:hover {
+    background-color: #E5E5E5;
+    transition: all 0.5s ease;
+  }
+  
+  /* Add animation */
+  .input-center {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Monospace", sans-serif;
+  }
+  
+  

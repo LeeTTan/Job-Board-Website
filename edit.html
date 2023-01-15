@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Athletic Trainer Job Board</title>
+        <script src="javascripit.js"></script>
+        <link href="job.css" rel="stylesheet">
+
+    </head>
+
+<body>
+
+    <header>
+        <h1>Athletic Trainer Job Board</h1>
+        <nav>
+            <ul>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#listings">Listings</a></li>
+                <li><a href="#submit">Submit a Job</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search">
+            <form action="search.php" method="get">
+                <label for="keywords">Keywords:</label>
+                <input type="text" id="keywords" name="keywords">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+                <input type="submit" value="Search">
+            </form>
+        </section>
+        <section id="listings">
+            <h2>Current Job Listings</h2>
+            <ul id="job-listings">
+                <ul id="mock">
+                <!-- Job listings will be inserted here using JavaScript -->
+            </ul>
+        </section>
+        <section id="submit">
+            <h2>Submit a Job Listing</h2>
+            <form action="submit.php" method="post">
+                <label for="job-title">Job Title:</label>
+                <input type="text" id="job-title" name="job-title">
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+                <label for="description">Job Description:</label>
+                <textarea id="description" name="description"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2023 Athletic Trainer Job Board</p>
+    </footer>
+
+</body>
+
+</html>

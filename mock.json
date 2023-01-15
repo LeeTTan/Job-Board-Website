@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "jobTitle": "Head Athletic Trainer",
+        "company": "New York University",
+        "location": "New York, New York",
+        "description": "The Head Athletic Trainer will be responsible for the overall medical care of the university's athletes. Duties include creating and implementing injury prevention programs, providing emergency medical care, and overseeing the work of assistant trainers. Candidates should have a bachelor's degree in athletic training and be certified by the NATA.",
+        "date_posted": "2022-11-01"
+    },
+    {
+        "id": 2,
+        "jobTitle": "Assistant Athletic Trainer",
+        "company": "Rutgers University",
+        "location": "New Brunswick, New Jersey",
+        "description": "The Assistant Athletic Trainer will assist the head athletic trainer in providing medical care to the school's athletes. Duties include injury assessment, rehabilitation, and assisting with the implementation of injury prevention programs. Candidates should have a bachelor's degree in athletic training and be certified by the NATA.",
+        "date_posted": "2022-10-15"
+    }
+]
